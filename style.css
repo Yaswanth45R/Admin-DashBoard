@@ -145,6 +145,7 @@
     grid-column: 1/2;
     grid-row: 2/3;
     border-radius: 10px;
+    margin-left: 20px;
 }
 .main-two{
     background-color: white;
@@ -163,6 +164,8 @@
     grid-column: 1/2;
     grid-row: 3/4;
     border-radius: 10px;
+    margin-left: 20px;
+
 }
 .main-five{
     background-color: white;
@@ -181,6 +184,8 @@
     grid-column: 1/2;
     grid-row: 4/5;
     border-radius: 10px;
+    margin-left: 20px;
+
 }
 .main-eight{
     background-color: white;
@@ -193,4 +198,29 @@
     grid-column: 3/4;
     grid-row: 4/5;
     border-radius: 10px; 
+}
+.main-content-heading{
+    grid-column: 1/-1;
+    display: flex;
+    align-items:end;
+    font-size: x-large;
+    font-weight: 550;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+.announcements{
+    margin-right: 40px;
+}
+
+.main-one-content{
+    margin: 30px;
+}
+.main-one-heading{
+    font-size: large;
+    font-weight: 799;
+    margin-bottom: 8px;
+}
+.main-one-text{
+    color: rgb(75, 75, 75);
 }
